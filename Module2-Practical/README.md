@@ -1,7 +1,7 @@
 # Module2-Practical – My Profile Page
 
 ## Objective
-Create a simple personal profile web page using HTML and CSS.  
+Created a simple personal profile web page using HTML and CSS.  
 The page should include:
 - A heading
 - An image
