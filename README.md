@@ -9,7 +9,8 @@ This repository contains all **practicals and coding challenges** from my ITonli
 Each folder includes:
 - `README.md` describing the task
 - `index.html` starter file
-- `images/` folder for screenshots
+- `style.css` stylesheet if needed
+- `images/` folder for images or screenshots if needed
 
 ## How to run
 Open `index.html` in your browser or view on GitHub Pages after deployment.
