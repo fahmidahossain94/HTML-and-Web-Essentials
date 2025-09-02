@@ -1,179 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Enhanced Website</title>
-  <style>
-    /* Basic Reset */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Enhanced Website</title>
+    <style>
+      /* Basic Reset */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      background-color: #f4f4f4;
-    }
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f4f4f4;
+      }
 
-    /* Navigation Styling */
-    .nav-container {
-      background-color: #333;
-      padding: 1rem 0;
-      position: sticky;
-      top: 0;
-    }
+      /* Navigation Styling */
+      .nav-container {
+        background-color: #333;
+        padding: 1rem 0;
+        position: sticky;
+        top: 0;
+      }
 
-    .main-nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-    }
+      .main-nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+      }
 
-    .main-nav a {
-      color: white;
-      text-decoration: none;
-      padding: 0.5rem 1rem;
-      transition: color 0.3s ease;
-    }
+      .main-nav a {
+        color: white;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        transition: color 0.3s ease;
+      }
 
-    .main-nav a:hover {
-      color: #ffd700;
-    }
+      .main-nav a:hover {
+        color: #ffd700;
+      }
 
-    /* Header Styling */
-    .header {
-      text-align: center;
-      padding: 3rem 1rem;
-      background-color: #fff;
-      margin-bottom: 2rem;
-    }
+      /* Header Styling */
+      .header {
+        text-align: center;
+        padding: 3rem 1rem;
+        background-color: #fff;
+        margin-bottom: 2rem;
+      }
 
-    .header h1 {
-      color: #333;
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-    }
+      .header h1 {
+        color: #333;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
 
-    .subtitle {
-      color: #666;
-      font-size: 1.2rem;
-    }
+      .subtitle {
+        color: #666;
+        font-size: 1.2rem;
+      }
 
-    /* Main Content Styling */
-    .main-content {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 0 1rem;
-    }
+      /* Main Content Styling */
+      .main-content {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 1rem;
+      }
 
-    .about-section,
-    .services-section,
-    .contact-section,
-    .new-section {
-      background-color: white;
-      padding: 2rem;
-      margin-bottom: 2rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
+      .about-section,
+      .services-section,
+      .contact-section,
+      .new-section {
+        background-color: white;
+        padding: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
 
-    h2, h3 {
-      color: #333;
-      margin-bottom: 1rem;
-    }
+      h2, h3 {
+        color: #333;
+        margin-bottom: 1rem;
+      }
 
-    /* Text Formatting */
-    .highlight {
-      background-color: #ffd700;
-      padding: 0.2rem 0.5rem;
-      border-radius: 4px;
-    }
+      /* Text Formatting */
+      .highlight {
+        background-color: #ffd700;
+        padding: 0.2rem 0.5rem;
+        border-radius: 4px;
+      }
 
-    em {
-      color: #666;
-      font-style: italic;
-    }
+      em {
+        color: #666;
+        font-style: italic;
+      }
 
-    .email {
-      color: #0066cc;
-      font-weight: bold;
-    }
+      .email {
+        color: #0066cc;
+        font-weight: bold;
+      }
 
-    .text-center {
-      text-align: center;
-    }
+      .text-center {
+        text-align: center;
+      }
 
-    /* Footer Styling */
-    .footer {
-      text-align: center;
-      padding: 2rem;
-      background-color: #333;
-      color: white;
-      margin-top: 2rem;
-    }
-  </style>
-</head>
-<body>
-  <!-- Navigation Section -->
-  <div class="nav-container">
-    <nav class="main-nav">
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
+      /* Footer Styling */
+      .footer {
+        text-align: center;
+        padding: 2rem;
+        background-color: #333;
+        color: white;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
 
-  <!-- Header Section -->
-<div class="header" id="home">
-  <h1>Welcome to My Website</h1>
-  <p class="subtitle">Learning <em>HTML</em> and <em>CSS</em></p>
-</div>
+  <body>
 
-<!-- Main Content Section -->
-<div class="main-content">
-  <div class="about-section" id="about">
-    <h2>About Me</h2>
-    <p>
-      Hello! I'm <span style="font-weight: bold;">Fahmida</span>, and I’m learning web development.
-      This site is where I practice <span style="font-size: 1.2em;">building projects</span>
-      and exploring <span style="color: #ff6b6b;">HTML & CSS</span>.
-    </p>
-  </div>
-
-  <div class="services-section" id="services">
-    <h2>What I Do</h2>
-    <p>I’m currently practicing:</p>
-    <ul>
-      <li><span class="highlight">Web Design</span></li>
-      <li><em>Content Writing</em></li>
-      <li><strong>Building Digital Projects</strong></li>
-    </ul>
-  </div>
-
-<div class="contact-section" id="contact">
-  <h2>Contact Me</h2>
-  <p>
-    You can reach me at:
-    <a href="mailto:fahmmi.h94@gmail.com" class="email">fahmmi.h94@gmail.com</a>
-  </p>
-</div>
-
-    <!-- Extra Practice Section -->
-    <div class="new-section text-center">
-      <h3><span style="text-decoration: line-through;">New Section</span></h3>
+    <!-- Navigation Section -->
+    <div class="nav-container">
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-  </div>
 
-  <!-- Footer Section -->
-  <div class="footer">
-    <p>&copy; 2025 <span style="text-decoration: underline;">My Website</span></p>
-  </div>
-</body>
+    <!-- Header Section -->
+    <div class="header" id="home">
+      <h1>Welcome to My Website</h1>
+      <p class="subtitle">Learning <em>HTML</em> and <em>CSS</em></p>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="main-content">
+      <div class="about-section" id="about">
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm <span style="font-weight: bold;">Fahmida</span>, and I’m learning web development.
+          This site is where I practice <span style="font-size: 1.2em;">building projects</span>
+          and exploring <span style="color: #ff6b6b;">HTML & CSS</span>.
+        </p>
+      </div>
+
+      <div class="services-section" id="services">
+        <h2>What I Do</h2>
+        <p>I’m currently practicing:</p>
+        <ul>
+          <li><span class="highlight">Web Design</span></li>
+          <li><em>Content Writing</em></li>
+          <li><strong>Building Digital Projects</strong></li>
+        </ul>
+      </div>
+
+      <div class="contact-section" id="contact">
+        <h2>Contact Me</h2>
+        <p>
+          You can reach me at:
+          <a href="mailto:fahmmi.h94@gmail.com" class="email">fahmmi.h94@gmail.com</a>
+        </p>
+      </div>
+
+      <!-- Extra Practice Section -->
+      <div class="new-section text-center">
+        <h3><span style="text-decoration: line-through;">New Section</span></h3>
+      </div>
+      
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+      <p>&copy; 2025 <span style="text-decoration: underline;">My Website</span></p>
+    </div>
+
+  </body>
 </html>
